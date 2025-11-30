@@ -40,11 +40,12 @@ We have URL validation to accept only http and https to avoid `javascript:`
 
 ### Redirect
 People will want to visit the original URL directly upon using the short URL.
+
 Implement the redirect mechanism and move the 2 endpoints to other path.
 
 ### Collision
 Over time the number of URL will increase to 10 or over 100 millions the percentage of collision will increase. 
-In the code we have the retry mechanism but if the percentage is too high it will pose problem.  
+In the code we have the retry mechanism but if the percentage is too high it will pose problem.
 
-### Solution
-Increase the number of characters to 7, 8 and more base on the number of URLs we predict will grow in the near future 
+Increase the number of characters to 7, 8 and more base on the number of URLs we predict will grow in the near future
+
