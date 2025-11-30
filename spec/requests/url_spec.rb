@@ -73,7 +73,7 @@ RSpec.describe "Urls", type: :request do
       it 'increase the counter by 1' do
         expect {
           post '/decode', params: { code: 'abc321' }
-        }.to change{ url.reload.access_count }.by(1)
+        }.to change { url.reload.access_count }.by(1)
       end
     end
 

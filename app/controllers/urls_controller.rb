@@ -1,5 +1,4 @@
 class UrlsController < ApplicationController
-
   def encode
     url = params[:url]
 
